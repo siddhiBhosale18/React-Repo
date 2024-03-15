@@ -1,0 +1,47 @@
+.header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-item > ul {
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.res-card {
+  width: 200px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #6a5acd;
+}
+
+.res-logo {
+  width: 100%;
+}
+/*# sourceMappingURL=01index.9e4c6fd2.css.map */
